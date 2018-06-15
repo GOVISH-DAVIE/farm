@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Signup form</title>
   <link rel='stylesheet prefetch' href='css/jwmbjg.css'>
-  <script src="js/index.js" charset="utf-8"></script>
+  <!-- <script src="js/index.js" charset="utf-8"></script> -->
       <link rel="stylesheet" href="css/style.css">
     </head>
     <style media="screen">

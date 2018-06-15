@@ -47,3 +47,4 @@ if(isset( $_SESSION['pinn'])){
  }
 ?>
 <script src="js/index.js" charset="utf-8"></script>
+<script src="js/shopy.js"></script>

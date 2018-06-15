@@ -136,16 +136,21 @@ class urlcontrol extends formClasses {
     super(length);
     //  http://localhost/farm/index.php?q=6bf139745db70cefca22689dea99833f
     let url = window.location.href;
-    console.log('====================================');
-    console.log(sessionStorage.getItem("id"));
-    console.log('====================================');
-    if (sessionStorage.getItem("id") == "users") {
-      this.usersUrlSort(url); 
-    } else if (sessionStorage.getItem("id") == "company") {
+
+    // console.log(sessionStorage.getItem("id"));
+      let varObj = sessionStorage.getItem("id");
+      // alert(varObj);
+    if ( varObj.toString() == "users") {
+      // this.usersUrlSort(url);  
+      this.renderFunc();
+   } else if ( varObj.toString() == "company") {
       this.companyUrlSort(url);
     }
-    // this.urlSort(url);
   }
+
+renderFunc(){
+  alert("okokoko");
+}
   companyUrlSort(url) {
     let urll = url.split("?");
     console.log(urll[1]);
@@ -179,6 +184,5 @@ class urlcontrol extends formClasses {
         }
       }
     }
-
-}
+  }
 let uu = new urlcontrol();

@@ -35,11 +35,8 @@
           # code...
           require_once 'client.ui/layouts/contracts.ui.php';
           break;
-
         default:
-          # code...
           require_once 'client.ui/layouts/home.ui.php';
-
           break;
       }
 
@@ -60,6 +57,6 @@
     </ul>
   </div>
 </body>
-<script src="js/shopy.js" charset="utf-8"></script>
+<!-- <script src="js/shopy.js" charset="utf-8"></script> -->
 
 </html>
